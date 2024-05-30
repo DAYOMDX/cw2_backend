@@ -22,11 +22,13 @@ app.use((req, res, next) => {
 // connect to MongoDB
 const MongoClient = require("mongodb").MongoClient;
 
-let db;
+// mongodb+srv://Deji:Ayodeji005@cluster0.lnn7tna.mongodb.net/
+// mongoApp123
+var db;
 MongoClient.connect(
-  "mongodb+srv://Deji:Ayodeji005@cluster0.lnn7tna.mongodb.net/",
+  "mongodb+srv://Dayo:newpassword@cluster0.djwbhsk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
   (err, client) => {
-    db = client.db("webstore");
+    db = client.db("AfterSchool");
   }
 );
 
