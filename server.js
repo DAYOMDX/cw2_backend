@@ -11,7 +11,7 @@ app.use(cors());
 // Connecting to the database
 var db;
 // const uri = "mongodb+srv://Deji:Ayodeji005@cluster0.lnn7tna.mongodb.net/";
-const uri = "mongodb+srv://Dayo:newpassword@cluster0.djwbhsk.mongodb.net/";
+const uri = "mongodb+srv://Dayo:ye6toSLTZC8GYe7S@cluster0.djwbhsk.mongodb.net/";
 try {
     const client = new MongoClient(uri);
     db = client.db("AfterSchool");
